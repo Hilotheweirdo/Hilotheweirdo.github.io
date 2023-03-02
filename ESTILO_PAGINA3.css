@@ -1,0 +1,215 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-image: url(null), 
+    -webkit-linear-gradient(
+      bottom,
+      #37262C 0%,
+      #37262C 3%,
+      #191921 45%,
+      #191921
+      
+    );
+    background-blend-mode: color;
+    height: 1500px;
+  }
+
+/*Color de scrollbar, NOTA: NOSE SI CAMBIA ALGO MAS PERO POR AHORA ESTA BIEN*/
+  :root {
+    color-scheme: dark;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*HEADER-BANNER*/
+  header {
+    background-color: #41292f00;
+    margin-left: -0.5%;
+    margin-top: -30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+ 
+  }
+
+@font-face{
+    src: url(FONTS/horizon.otf);
+    font-family: Horizon;}
+h1{
+    position: relative;
+    margin-left: 613px;
+    margin-top: -17%;
+    
+        font-family: Horizon;
+    font-size: 55px;
+    letter-spacing: 1.4px;
+    word-spacing: 0.2px;
+    color: #ffffff;
+    font-weight: 400;
+    }
+    
+ #FOTO{
+    max-width: 18%;
+    height: 18%;
+    margin-left: -58%;
+    margin-top: -200px;
+    border: 2px solid #cb5b5b;
+    padding: 0px;
+    size: -10% -10%;
+    -webkit-box-shadow: 
+    0px 0px 100px 4px #cb5b5bc2; 
+    box-shadow: 0px 0px 100px 4px rgba(203,91,91,0.76);
+}
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 14.5%;
+    margin-left: 251px;
+    margin-top: 5%;
+    height: 400px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 0;
+    text-align: center;
+    
+    border-radius: 18px;
+    border: 4px solid #ffffff;
+    background: #7c7c85
+  }
+
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    margin-top: 50%;
+    margin-right: 13%;
+  }
+
+#Logo_Youtube{
+  margin-bottom: -0.2%;
+  max-width: 3.5%
+}
+  
+@font-face {
+    font-family: Roboto-regular;
+    src: url(FONTS/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(FONTS/RobotoCondensed-Bold.ttf);
+    
+}
+@font-face {
+    font-family: Roboto-light;
+    src: url(FONTS/RobotoCondensed-Light.ttf);
+}
+a{
+position: relative;
+    
+font-family: Roboto-light;
+font-size: 24px;
+font-weight: 100;
+line-height: 1.6;
+letter-spacing: 1.63px;
+word-spacing: 0;
+color: #ffffff;
+}
+a:hover {
+    color: #191921;
+  }
+
+
+h2{
+    font-family: Roboto-light;
+font-size: 36.5px;
+font-weight: 800;
+letter-spacing: 1.4px;
+word-spacing: 0.2px;
+color: #7c7c85;
+
+}
+p1{
+    font-family: Roboto-bold;
+font-size: 29px;
+letter-spacing: 1.4px;
+word-spacing: 0.2px;
+color: #7c7c85;
+font-weight: 400;
+}
+
+p2{
+    font-family: Roboto-regular;
+    font-size: 28.7px;
+    letter-spacing: 1.4px;
+    word-spacing: 0.2px;
+    color: #7c7c85;
+    font-weight: 400;
+}
+
+
+  article {
+    float: left;
+    padding: 20px;
+    margin-left: 65px;
+    margin-top: -1.5%;
+    width: 60%;
+    background-color: #f1f1f100;
+    height: 500px; /* only for demonstration, should be removed */
+  }
+  
+#Me_gusta{
+padding-bottom: 5%;
+
+}
+
+#Lorem  {
+padding-top: -10%;    
+}  
+  
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #ffffff00;
+    padding: 1px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    margin-top: 3%
+  }
+
+#LOGOS4{
+  margin-left: 13.1%;
+  margin-top: 1%;
+  
+}  
+
+#button_page_down{
+  margin-bottom: -25%;
+  margin-left: 31%;
+  max-width: 2%;
+
+}
+
+  /*SOURCE:W3S Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
